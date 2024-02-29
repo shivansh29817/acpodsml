@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(163, 163, 235);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(19, 19, 82);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+main hr {
+    border: 0;
+    background: rgb(19, 19, 82);
+    height: 1.2px;
+    margin: 40px 84px;
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+    color: rgb(47, 47, 193);
+    font-size: 1.02rem;
+}
+
+.left {
+    font-size: 1.5rem;
+}
+
+.firstsection {
+    display: flex;
+    justify-content: space-around;
+    margin: 110px 0;
+    align-items: center;
+
+}
+
+.firstsection>div {
+    width: 30%;
+}
+
+.leftsection {
+    font-size: 2rem;
+}
+
+.rightsection img {
+    width: 120%;
+}
+
+.purple {
+    color: rgb(151, 28, 151);
+}
+
+#element {
+    color: rgb(151, 28, 151);
+}
+
+.secondsection {
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+
+.thirdsection {
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+
+.secondsection h1 {
+    font-size: 1.5rem;
+    height: 50px;
+}
+
+.gray-text {
+    color: black;
+}
+
+.secondsection .box {
+    background: white;
+    width: 67vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+}
+
+.secondsection .vertical {
+    height: 80px;
+    width: 1px;
+    background-color: white;
+    margin: 0 100px;
+}
+
+.image-top {
+    width: 40px;
+    position: relative;
+    top: -45px;
+    left: -25px;
+}
+
+.vertical-title {
+    position: relative;
+    top: 50px;
+    width: 150px;
+    font-size: 15px;
+}
+
+.vertical-desc {
+    position: relative;
+    top: 50px;
+    width: 150px;
+    color: black;
+    font-size: small;
+}
+
+.project-img {
+    height: 600px;
+    width: 1200px;
+    margin-bottom: 20px;
+    opacity: 0.5;
+    border-radius: 10px;
+}
